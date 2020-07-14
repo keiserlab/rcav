@@ -20,3 +20,4 @@ Requirements for these scripts may be installed by pip or conda using the requir
 # Datasets:
 TFMNIST.py contains the code for creating the TFMNIST dataset.
 The unnaugmented data for CAMELYON16 is available at http://gigadb.org/dataset/view/id/100439/
+The biased CAMELYON16 dataset described in the paper will be made available shortly.
