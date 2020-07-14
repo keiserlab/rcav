@@ -27,5 +27,7 @@ The unnaugmented data for CAMELYON16 is available at http://gigadb.org/dataset/v
 
 # TODO:
 Upload B-CAMELYON16
+
 Upload split used for TFMNIST
+
 Link RCAV to arxiv posting
