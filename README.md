@@ -10,7 +10,9 @@ The TFMNIST and B-CAMELYON16 datasets may be used as benchmarks for semantic int
 # Usage
 
 main.py will save your reproduced copy of figure 2 to the file RCAV_fig2.png
+
 rcav.py and rcav_utils.py contains the code for running RCAV on any model. 
+
 Note use of rcav.py on another model requires adding latent augmentation functionality as is done in lines 150, 156, etc. of inception_mixup.py.
 
 # Requirements: 
@@ -19,6 +21,11 @@ Please FIRST download model weights from https://zenodo.org/record/3889104 and p
 Requirements for these scripts may be installed by pip or conda using the requirements.txt or rcav_env.yml files.
 
 # Datasets:
-TFMNIST.py contains the code for creating the TFMNIST dataset.
+TFMNIST.py contains the code for creating the TFMNIST dataset note that the split is not the same as used for model training.
+The B-CAMELYON16 dataset described in the paper will be made available shortly.
 The unnaugmented data for CAMELYON16 is available at http://gigadb.org/dataset/view/id/100439/
-The biased CAMELYON16 dataset described in the paper will be made available shortly.
+
+# TODO:
+Upload B-CAMELYON16
+Upload split used for TFMNIST
+Link RCAV to arxiv posting
