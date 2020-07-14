@@ -8,7 +8,7 @@ The TFMNIST and B-CAMELYON16 datasets may be used as benchmarks for semantic int
 
 ### Run main.py to reproduce the results shown in Figure 2 of the paper. Note that main.py also accepts command line arguments, e.g. if you wish to retrain the model instead of loading the trained weights.
 
-# Usage
+# Usage:
 
 main.py will save your reproduced copy of figure 2 to the file RCAV_fig2.png
 
