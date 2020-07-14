@@ -2,10 +2,11 @@
 
 This repository contains the official pytorch implementation of [RCAV](https://linkhere.com) and the accompanying TFMNIST and Biased-CAMELYON16 datasets.
 
-Robust Concept Activation Vectors (RCAV) quantifies the effects of semantic concepts on individual model predictions and on model behavior as a whole.
-Run main.py to reproduce the results shown in Figure 2 of the paper. Note that main.py also accepts command line arguments, e.g. if you wish to retrain the model instead of loading the trained weights. By generalizing previous work on concept activation vectors to account for model non-linearity, and by introducing stricter hypothesis testing, we show that RCAV yields interpretations which are both more accurate at the image level and robust at the dataset level. RCAV, like saliency methods, supports the fine-grained interpretation of individual predictions.
+Robust Concept Activation Vectors (RCAV) quantifies the effects of semantic concepts on individual model predictions and on model behavior as a whole. By generalizing previous work on concept activation vectors to account for model non-linearity, and by introducing stricter hypothesis testing, we show that RCAV yields interpretations which are both more accurate at the image level and robust at the dataset level. RCAV, like saliency methods, supports the fine-grained interpretation of individual predictions.
 
 The TFMNIST and B-CAMELYON16 datasets may be used as benchmarks for semantic interpretability methods.
+
+### Run main.py to reproduce the results shown in Figure 2 of the paper. Note that main.py also accepts command line arguments, e.g. if you wish to retrain the model instead of loading the trained weights.
 
 # Usage
 
