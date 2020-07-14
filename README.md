@@ -15,6 +15,7 @@ Note use of rcav.py on another model requires adding latent augmentation functio
 
 # Requirements: 
 Please FIRST download model weights from https://zenodo.org/record/3889104 and put the file in the same directory as main.py
+
 Requirements for these scripts may be installed by pip or conda using the requirements.txt or rcav_env.yml files.
 
 # Datasets:
