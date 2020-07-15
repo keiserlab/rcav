@@ -1,4 +1,4 @@
-# Robust Semantic Interpretability: Revisiting Concept Activation Vectors
+# Robust Semantic Interpretability: Revisiting Concept Activation Vectors (ICML WHI 2020)
 
 This repository contains the official pytorch implementation of RCAV and the accompanying TFMNIST and Biased-CAMELYON16 datasets.
 
