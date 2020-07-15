@@ -1,6 +1,6 @@
 # Robust Semantic Interpretability: Revisiting Concept Activation Vectors
 
-This repository contains the official pytorch implementation of [RCAV](https://linkhere.com) and the accompanying TFMNIST and Biased-CAMELYON16 datasets.
+This repository contains the official pytorch implementation of RCAV and the accompanying TFMNIST and Biased-CAMELYON16 datasets.
 
 Robust Concept Activation Vectors (RCAV) quantifies the effects of semantic concepts on individual model predictions and on model behavior as a whole. By generalizing previous work on concept activation vectors to account for model non-linearity, and by introducing stricter hypothesis testing, we show that RCAV yields interpretations which are both more accurate at the image level and robust at the dataset level. RCAV, like saliency methods, supports the fine-grained interpretation of individual predictions.
 
